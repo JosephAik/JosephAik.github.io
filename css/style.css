@@ -10,7 +10,7 @@ nav{
 	align-items: center;
 	min-height: 8vh;
 	font-family: 'Poppins', sans-serif;
-	background-color: #5D4954;
+	background-color: #00255d;
 }
 .logo{
 	color: rgb(226, 226, 226);
@@ -69,7 +69,7 @@ nav{
 			right: 0px;
 			height: 92vh;
 			top: 8vh;
-			background-color: #5D4954;
+			background-color: #00255d;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
