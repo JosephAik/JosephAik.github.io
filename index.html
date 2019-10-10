@@ -46,7 +46,7 @@
 
 	<header class="bodyhead">
 		<div class="divbody">
-			<h1 class="title">Front-end Developer | Desinger | Photographer</h1><br>
+			<h1 class="title anim-typewriter">Front-end Developer | Desinger | Photographer</h1><br>
 			<h4 class="subtitle">I design, code and photoshoot. I simply love to create creative things.</h4><br>
 			<a href="#portfolio" class="header__btn" >View My Works</a>
 		</div>
@@ -64,11 +64,14 @@
 							<img class="manimg" src="img/joseph1.png" alt="">
 						</div>
 						<div class="col-sm-8">
-							<p class="about__text__description">Hello, my name is Joseph. I am a Front-End Developer located in Thailand.</p>
-							<br>
-							<p class="about__text__description_sub">I design and develop websites and web applications using HTML, CSS and JavaScript. 
+							<div class="wrapper">
+								<p>Hello, my name is Joseph.<span>&nbsp;</span></p>
+							</div><br>
+							<div class="wrapper_sub">
+							<p>I design and develop websites and web applications using HTML, CSS and JavaScript. 
 								When dealing with a project I pay attention to the smallest details addressing problems with patience. 
 								Web design and development help me to free my creative mind and allow me satisfy my desire towards constant self growth.</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -82,7 +85,7 @@
 			<h3 class="portfolio__description">Examples of my latest projects build with HTML, CSS and JavaScript.
 				 My portfolio includes static websites, Wordpress based websites and illustrations/ designes made with Adobe photoshop.
 			</h3>
-			<div class="portfolio__nav__container">
+	<!--	<div class="portfolio__nav__container">
 					<button class="portfolio__nav__btn" data-btn-name="all-btn">All</button>
 					<button class="portfolio__nav__btn" data-btn-name="websites-btn">Websites</button>
 					<button class="portfolio__nav__btn" data-btn-name="illustrations-btn">CSS Images</button>
@@ -155,12 +158,90 @@
 					</div>
 				  
 				  </div>
+-->	
+			<div class="portfolio__nav__container">
+					<button class="portfolio__nav__btn active" onclick="filterSelection('all')">All</button>
+					<button class="portfolio__nav__btn" onclick="filterSelection('nature')">Websites</button>
+					<button class="portfolio__nav__btn" onclick="filterSelection('cars')">Photoshop</button>
+					<button class="portfolio__nav__btn" onclick="filterSelection('people')">Photography</button>
+			</div>
+
+			<!-- Portfolio Gallery Grid -->
+			<div class="portfolio__items-container">
+				<div class="column nature">
+				<div class="content">
+					<img src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="Mountains" style="width:100%">
+					<h4>Mountains</h4>
+					<p>Lorem ipsum dolor..</p>
+				</div>
+				</div>
+				<div class="column nature">
+				<div class="content">
+				<img src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="Lights" style="width:100%">
+					<h4>Lights</h4>
+					<p>Lorem ipsum dolor..</p>
+				</div>
+				</div>
+				<div class="column nature">
+				<div class="content">
+				<img src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="Nature" style="width:100%">
+					<h4>Forest</h4>
+					<p>Lorem ipsum dolor..</p>
+				</div>
+				</div>
+				
+				<div class="column cars">
+				<div class="content">
+					<img src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="Car" style="width:100%">
+					<h4>Retro</h4>
+					<p>Lorem ipsum dolor..</p>
+				</div>
+				</div>
+				<div class="column cars">
+				<div class="content">
+				<img src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="Car" style="width:100%">
+					<h4>Fast</h4>
+					<p>Lorem ipsum dolor..</p>
+				</div>
+				</div>
+				<div class="column cars">
+				<div class="content">
+				<img src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="Car" style="width:100%">
+					<h4>Classic</h4>
+					<p>Lorem ipsum dolor..</p>
+				</div>
+				</div>
+			
+				<div class="column people">
+				<div class="content">
+					<img src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="Car" style="width:100%">
+					<h4>Girl</h4>
+					<p>Lorem ipsum dolor..</p>
+				</div>
+				</div>
+				<div class="column people">
+				<div class="content">
+				<img src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="Car" style="width:100%">
+					<h4>Man</h4>
+					<p>Lorem ipsum dolor..</p>
+				</div>
+				</div>
+				<div class="column people">
+				<div class="content">
+				<img src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="Car" style="width:100%">
+					<h4>Woman</h4>
+					<p>Lorem ipsum dolor..</p>
+				</div>
+				</div>
+			<!-- END GRID -->
+  </div>
+  
 			</section>
 			<section id="contact" class="contact">
 				<h1 class="contact__title">Let's get in touch
 					<span class="contact__title__dot"></span>
 				</h1>
-				<h3 class="contact__description">You can email me or find me on my social media links down below!</h3>
+				<h3 class="contact__description">You can email me or find me on my social media in the links down below!</h3>
 				<div class="contact__link">
 					<a class="contact-link" href="mailto:aiknount@gmail.com">aiknount@gmail.com</a>
 				</div>
@@ -175,7 +256,7 @@
 			</section>
 			<footer id="footer" class="footer">
 					<div class="footer__info__container">
-						<h3 class="copyright">@2019 All Rights Reserved</h3>
+						<h3 class="copyright">@2019 All Rights Reserved.</h3>
 					</div>	
 			</footer>
 			
